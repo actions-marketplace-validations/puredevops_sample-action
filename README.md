@@ -18,7 +18,7 @@ jobs:
     - uses: actions/setup-java@v1
       with:
         java-version: 11
-    - uses: puredevops/sample-action@v1.2
+    - uses: puredevops/sample-action@v1.1
       with:
         arguments: build
 ```
