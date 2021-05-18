@@ -3,7 +3,7 @@
 The following workflow will run ./gradlew build using the wrapper from the repository on ubuntu, macos and windows. The only prerequisite is to have Java installed, you can define the version you need to run the build using the actions/setup-java action.
 
 **Usage**
-
+```
 # .github/workflows/gradle-build.yml
 name: Run Gradle on PR
 on: pull_request
@@ -21,3 +21,4 @@ jobs:
     - uses: puredevops/sample-action@v1
       with:
         arguments: build
+```
