@@ -48,7 +48,11 @@ outputs:
 
 runs:
   using: 'node12'
+<<<<<<< HEAD
   main: 'dist/index.js'
+=======
+  main: 'dist/main/index.js'
+>>>>>>> 98924ec404639a9f76b25b179c157b35f6d87d61
   post: 'dist/post/index.js'
   post-if: success()
 
